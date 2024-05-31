@@ -26,9 +26,9 @@ const PricingCard = (props: {
         </div>
       </div>
 
-      <div className="mt-2 text-sm text-muted-foreground">
-        {tPricingPlan(`${props.planId}_plan_description`)}
-      </div>
+      {/* <div className="mt-2 text-sm text-muted-foreground"> */}
+      {/*  {tPricingPlan(`${props.planId}_plan_description`)} */}
+      {/* </div> */}
 
       {props.button}
 

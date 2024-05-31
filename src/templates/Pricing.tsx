@@ -11,7 +11,7 @@ const Pricing = () => {
 
   return (
     <Section
-      subtitle={t('section_subtitle')}
+      // subtitle={t('section_subtitle')}
       title={t('section_title')}
       description={t('section_description')}
     >

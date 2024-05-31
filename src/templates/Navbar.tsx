@@ -30,27 +30,7 @@ const Navbar = () => {
             </li>
           </>
         }
-      >
-        <li>
-          <Link href="/">{t('product')}</Link>
-        </li>
-
-        <li>
-          <Link href="/">{t('docs')}</Link>
-        </li>
-
-        <li>
-          <Link href="/">{t('blog')}</Link>
-        </li>
-
-        <li>
-          <Link href="/">{t('community')}</Link>
-        </li>
-
-        <li>
-          <Link href="/">{t('company')}</Link>
-        </li>
-      </CenteredMenu>
+      />
     </Section>
   );
 };

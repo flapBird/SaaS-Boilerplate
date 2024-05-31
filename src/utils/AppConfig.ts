@@ -6,7 +6,7 @@ const localePrefix: LocalePrefix = 'as-needed';
 
 // FIXME: Update this configuration file based on your project information
 export const AppConfig = {
-  name: 'SaaS Template',
+  name: 'ChatPDF',
   locales: [
     {
       id: 'en',
@@ -42,7 +42,7 @@ export const PricingPlanList: Array<PricingPlan> = [
   },
   {
     id: PLAN_ID.PREMIUM,
-    price: 79,
+    price: 4.99,
     interval: BILLING_INTERVAL.MONTH,
     devPriceId: '',
     prodPriceId: '',
@@ -55,8 +55,8 @@ export const PricingPlanList: Array<PricingPlan> = [
   },
   {
     id: PLAN_ID.ENTERPRISE,
-    price: 199,
-    interval: BILLING_INTERVAL.MONTH,
+    price: 34.99,
+    interval: BILLING_INTERVAL.YEAR,
     devPriceId: '',
     prodPriceId: '',
     features: {
