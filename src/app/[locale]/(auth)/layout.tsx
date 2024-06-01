@@ -19,7 +19,7 @@ export default function AuthLayout(props: {
   if (props.params.locale !== AppConfig.defaultLocale) {
     signInUrl = `/${props.params.locale}${signInUrl}`;
     signUpUrl = `/${props.params.locale}${signUpUrl}`;
-    dashboardUrl = `/${props.params.locale}${dashboardUrl}`;
+    dashboardUrl = `/${props.params.locale}`;
   }
 
   return (
