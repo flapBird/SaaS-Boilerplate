@@ -10,7 +10,7 @@ export default function AuthLayout(props: {
   let clerkLocale = enUS;
   let signInUrl = '/sign-in';
   let signUpUrl = '/sign-up';
-  let dashboardUrl = '/dashboard';
+  let dashboardUrl = '/';
 
   if (props.params.locale === 'fr') {
     clerkLocale = frFR;
@@ -19,7 +19,7 @@ export default function AuthLayout(props: {
   if (props.params.locale !== AppConfig.defaultLocale) {
     signInUrl = `/${props.params.locale}${signInUrl}`;
     signUpUrl = `/${props.params.locale}${signUpUrl}`;
-    dashboardUrl = `/${props.params.locale}`;
+    dashboardUrl = `/${props.params.locale}${dashboardUrl}`;
   }
 
   return (
