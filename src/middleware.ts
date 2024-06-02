@@ -2,6 +2,7 @@ import { clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server';
 import {
   type NextFetchEvent,
   type NextRequest,
+  NextResponse,
   // NextResponse,
 } from 'next/server';
 import createMiddleware from 'next-intl/middleware';
@@ -45,19 +46,19 @@ export default function middleware(
         });
       }
 
-      // if (
-      //   authObj.userId &&
-      //   !authObj.orgId &&
-      //   req.nextUrl.pathname.includes('/dashboard') &&
-      //   !req.nextUrl.pathname.endsWith('/organization-selection')
-      // ) {
-      //   const orgSelection = new URL(
-      //     '/onboarding/organization-selection',
-      //     req.url,
-      //   );
-      //
-      //   return NextResponse.redirect(orgSelection);
-      // }
+      if (
+        authObj.userId &&
+        !authObj.orgId &&
+        req.nextUrl.pathname.includes('/dashboard') &&
+        !req.nextUrl.pathname.endsWith('/organization-selection')
+      ) {
+        const orgSelection = new URL(
+          '/onboarding/organization-selection',
+          req.url,
+        );
+
+        return NextResponse.redirect(orgSelection);
+      }
 
       return intlMiddleware(req);
     })(request, event);
