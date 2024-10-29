@@ -22,7 +22,8 @@ export const Hero = () => {
           <>
             <a
               className={buttonVariants({ size: 'lg' })}
-              href="https://github.com/ixartz/SaaS-Boilerplate"
+              href="https://www.curseforge.com/sims4"
+              target="_blank"
             >
               {t('primary_button')}
             </a>
