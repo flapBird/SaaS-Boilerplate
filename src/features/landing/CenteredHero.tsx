@@ -4,9 +4,9 @@ export const CenteredHero = (props: {
   buttons: React.ReactNode;
 }) => (
   <>
-    <div className="mt-3 text-center text-5xl font-bold tracking-tight">
+    <h1 className="mt-3 text-center text-5xl font-bold tracking-tight">
       {props.title}
-    </div>
+    </h1>
 
     <div className="mx-auto mt-5 max-w-screen-md text-center text-xl text-muted-foreground">
       {props.description}

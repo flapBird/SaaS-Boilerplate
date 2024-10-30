@@ -13,6 +13,9 @@ export const FAQ = () => {
 
   return (
     <Section>
+      <div className="mb-8">
+        <h2 className="text-2xl text-center font-bold">{t('faqTitle')}</h2>
+      </div>
       <Accordion type="multiple" className="w-full">
         <AccordionItem value="item-1">
           <AccordionTrigger>{t('question')}</AccordionTrigger>
