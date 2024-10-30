@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3bcdfdd-42a7-416f-b8c7-c762481cc963" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.production" beforeDir="false" afterPath="$PROJECT_DIR$/.env.production" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/landing/CenteredHero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/landing/CenteredHero.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/landing/CTABanner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/landing/CTABanner.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/landing/FeatureCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/landing/FeatureCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/landing/Section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/landing/Section.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/locales/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/en.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/locales/fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/fr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/CTA.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/CTA.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/templates/FAQ.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/FAQ.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/templates/Features.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/Features.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/AppConfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/AppConfig.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +86,7 @@
       <workItem from="1718722256553" duration="20796000" />
       <workItem from="1720235648953" duration="643000" />
       <workItem from="1726589777366" duration="18000" />
-      <workItem from="1730125918772" duration="8293000" />
+      <workItem from="1730125918772" duration="14025000" />
     </task>
     <servers />
   </component>
